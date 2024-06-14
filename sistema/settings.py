@@ -77,10 +77,6 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sistema',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
     }
 }
 
