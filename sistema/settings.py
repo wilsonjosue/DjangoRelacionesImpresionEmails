@@ -132,4 +132,4 @@ EMAIL_HOST = 'smtp.gmail.com'  # Servidor SMTP de Gmail
 EMAIL_PORT = 587  # Puerto SMTP de Gmail para TLS
 EMAIL_USE_TLS = True  # Usar TLS para conexiones seguras
 EMAIL_HOST_USER = 'josueturpo2002@gmail.com'  # Tu dirección de correo electrónico de Gmail
-EMAIL_HOST_PASSWORD = 'wilsonjosue8823753'  # Contraseña de tu cuenta de Gmail
+EMAIL_HOST_PASSWORD = 'dvsn eyhb kvxk gezy'  # Contraseña de aplicacion gmail
