@@ -47,16 +47,3 @@ def generate_invoice_pdf(request):
             return HttpResponse(f"Error sending email: {str(e)}", status=400)
         
     return HttpResponse("Error generating PDF", status=400)
-
-"""def send_test_email(request):
-    subject = 'Correo de prueba desde Django'
-    message = 'Este es un correo de prueba enviado desde Django utilizando la función send_mail.'
-    from_email = settings.EMAIL_HOST_USER
-    to_email = ['wturpoh@unsa.edu.pe']  # Aquí debes poner la dirección de correo del destinatario
-
-    try:
-        send_mail(subject, message, from_email, to_email, fail_silently=False)
-        return HttpResponse('Correo de prueba enviado correctamente.')
-    except Exception as e:
-        return HttpResponse(f'Error al enviar correo de prueba: {str(e)}', status=400)
-"""
